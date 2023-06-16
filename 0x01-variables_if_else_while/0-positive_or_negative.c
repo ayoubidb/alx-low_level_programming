@@ -10,6 +10,9 @@
  * The program then determines the sign of the number and provides an
  * appropriate message. The output includes whether the number is positive,
  * negative, or zero, each on a new line.
+ *
+ * Returns:
+ *     0 - indicating successful execution of the program.
  */
 
 int main(void)
@@ -26,5 +29,5 @@ int main(void)
     else
         printf("%d is zero\n", n);
 
-    return (0);
+    return 0;
 }
