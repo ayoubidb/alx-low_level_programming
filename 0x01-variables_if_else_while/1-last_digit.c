@@ -3,8 +3,7 @@
 #include <time.h>
 
 /**
- * main - The code generates a random number and determines its last digit. Then, it prints a message stating whether the last digit is greater than 5, equal to 0, or less than 6 and not 0.
- *
+ * main - The code generates a random number, determines its last digit, and prints a message based on the digit.
  * Return: Always 0.
 */
 
