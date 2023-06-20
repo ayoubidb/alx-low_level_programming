@@ -1,12 +1,14 @@
-#include "main.h"
+#ifndef MAIN_H
+#define MAIN_H
 
-/**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+/*
+ * File: main.h
+ * Auth: Abdessamad El Fathi
+ * Desc: Header file containing declarations for all functions
+ *       used in the 0x02-functions_nested_loops directory.
  */
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
+
+int _putchar(char c);
+void print_alphabet(void);
+
+#endif
