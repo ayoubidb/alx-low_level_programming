@@ -4,6 +4,7 @@
  *
  * Return: The length of the string.
  */
+
 int _strlen(char *s)
 {
         int length = 0;
@@ -12,5 +13,5 @@ int _strlen(char *s)
         for (i = 0; *s != '\0'; i++)
                 length++;
 
-        return length;
+        return (length);
 }
