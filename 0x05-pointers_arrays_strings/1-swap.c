@@ -6,8 +6,8 @@
 
 void swap_int(int *a, int *b)
 {
-	int c;//temeperory variable 
-	//temeperory variable
+	int c;
+
 	c = *b;
 	*b = *a;
 	*a = c;
