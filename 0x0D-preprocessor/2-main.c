@@ -4,7 +4,7 @@
  *
  * Return: Always 0
  */
-void file(void)
+void main(void)
 {
 	printf("%s\n", __FILE__);
 }
